@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0, 100;0, 300;0,400;0,700;0,900;1,400&display=swap');
+
 body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -84,6 +86,97 @@ a:hover {
     justify-content: center;
     background-color: #9e9e9e;
     color: #F9FAF8;
-    width: 700px;
+    width: 600px;
     height: 260px;
+}
+
+.light-container-grid h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img-container {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.text {
+    color: #1F2937;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    width: 100%;
+    height: fit-content;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 50px 300px 0 300px;
+}
+
+.author {
+    text-align: right;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    color: #1F2937;
+    font-weight: 700;
+}
+
+.blue-container {
+    margin: 50px auto;
+    padding: 40px 8px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    width: 70%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blue-container-text {
+    line-height: 0;
+}
+
+.blue-container button {
+    color: #FFFFFF;
+    background-color: #3882F6;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 24px;
+    cursor: pointer;
+}
+
+.blue-container button:hover {
+    background-color: #6198f0;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
